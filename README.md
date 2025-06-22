@@ -1,49 +1,42 @@
-### Tarefas
-Foi concluído:<br>
-* Ativo Circulante<br>
-* Ativo Não Circulante<br>
-* Passivo Circulante<br>
-* Passivo Não Circulante<br>
+### Dados Coletados
+* ✅ Ativo Circulante<br>
+* ✅ Ativo Não Circulante<br>
+* ✅ Passivo Circulante<br>
+* ✅ Passivo Não Circulante<br>
+* ⬜ Demonstrativo de Resultado
+* ⬜ Demonstrativo de Resultado Abrangente
 
-### Realizar os seguintes calculos para validar 
+🟥 Falta analisar outros setores para ver outras formas de classes nos balanços.
 
+### Caluclos Base
 
-colunas_ativo_circulante = [
-    'Caixa e Equivalentes de Caixa',
-    'Aplicações Financeiras',
-    'Contas a Receber',
-    'Estoques',
-    'Ativos Biológicos',
-    'Tributos a Recuperar',
-    'Despesas Antecipadas',
-    'Outros Ativos Circulantes'
-]
-ativo_circulante['total'] = ativo_circulante[colunas_ativo_circulante].sum(axis=1)
+Último Balanço Patrimônial
+* ✅ Ativo
+* ✅ Disponibilidade
+* ✅ Ativos Circulante
+* ✅ Dívida Bruta
+* ✅ Dívida Líquida
+* ✅ Patrimo Líquido
+* ⬜ Lucro Líquido 12 Meses
+* ⬜ Receita Líquida 12 Meses
+* ⬜ EBIT 12 Meses
+* ⬜ Valor de Mercado
+* ⬜ Valor de Firma
+* ⬜ Expectativa 
 
-
-colunas_ativo_nao_circulante = [
-    'Ativo Realizável a Longo Prazo',
-    'Investimentos',
-    'Imobilizado',
-    'Intangível',
-]
-ativo_nao_circulante['total'] = ativo_nao_circulante[colunas_ativo_nao_circulante].sum(axis=1)
-
-
-colunas_passivo_circulante = [
-    'Obrigações Sociais e Trabalhistas',
-    'Fornecedores',
-    'Obrigações Fiscais',
-    'Empréstimos e Financiamentos',
-    'Outras Obrigações',
-    'Passivos sobre Ativos Não-Correntes a Venda e Descontinuados'
-]
-passivo_circulante['total'] = passivo_circulante[colunas_passivo_circulante].sum(axis=1)
-
-
-
-calculo_ativo = ativo_circulante['total'].iloc[0] + ativo_nao_circulante['total'].iloc[0]<br>
-calculo_disponibilidade = ativo_circulante['Caixa e Equivalentes de Caixa'].iloc[0] + ativo_circulante['Aplicações Financeiras'].iloc[0]<br>
-calculo_ativo_circulante = ativo_circulante['total'].iloc[0]<br>
-calculo_divida_bruta = passivo_nao_circulante['Empréstimos e Financiamentos'].iloc[0] + passivo_circulante['Empréstimos e Financiamentos'].iloc[0]<br>
-calculo_divida_liquida = calculo_divida_bruta - calculo_disponibilidade<br>
+### Indicadore de Valuation
+* ⬜ Dividendo Yield
+* ⬜ LPA
+* ⬜ PL
+* ⬜ P/VP
+* ⬜ VPA
+* ⬜ P/EBIT
+* ⬜ PSR
+* ⬜ EV/EBIT
+* ⬜ P/Ativo
+* ⬜ Capital de Giro
+* ⬜ P/ Capital de Giro
+* ⬜ Capital de Giro por Ação
+* ⬜ Ativo Circulante Líquido
+---
+⬜ ✅ 🟥
