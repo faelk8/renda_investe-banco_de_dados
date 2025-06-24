@@ -3,7 +3,7 @@
 * ✅ Ativo Não Circulante<br>
 * ✅ Passivo Circulante<br>
 * ✅ Passivo Não Circulante<br>
-* ⬜ Demonstrativo de Resultado
+* 🟥 Demonstrativo de Resultado - Falta coletar "Demonstração do Resultado | Lucro/Prejuízo do Período" e o filhos
 * ⬜ Demonstrativo de Resultado Abrangente
 
 🟥 Falta analisar outros setores para ver outras formas de classes nos balanços.
@@ -17,7 +17,7 @@
 * ✅ Dívida Bruta
 * ✅ Dívida Líquida
 * ✅ Patrimo Líquido
-* ⬜ Lucro Líquido 12 Meses
+* ✅ Lucro Líquido 12 Meses
 * ⬜ Receita Líquida 12 Meses
 * ⬜ EBIT 12 Meses
 * ⬜ Valor de Mercado
