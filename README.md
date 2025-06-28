@@ -3,40 +3,37 @@
 * ✅ Ativo Não Circulante<br>
 * ✅ Passivo Circulante<br>
 * ✅ Passivo Não Circulante<br>
-* ✅ Demonstrativo de Resultado - Falta coletar "Demonstração do Resultado | Lucro/Prejuízo do Período" e o filhos
+* ✅ Demonstrativo de Resultado
 * ⬜ Demonstrativo de Resultado Abrangente
 
 🟥 Falta analisar outros setores para ver outras formas de classes nos balanços.
 
-## Balanço Patrimônial
 
-### Último Balanço Patrimônial
-* ✅ Ativo
-* ✅ Disponibilidade
-* ✅ Ativos Circulante
-* ✅ Dívida Bruta
-* ✅ Dívida Líquida
-* ✅ Patrimo Líquido
-* ✅ Lucro Líquido 12 Meses
-* ✅ Receita Líquida 12 Meses
-* ✅ EBIT 12 Meses
-* ✅ Valor de Mercado
-* ✅ Valor de Firma
-* ✅ Expectativa 
+# Separar setor
+Opções de valores variam de acordo com o setor
 
-### Indicadore de Valuation
-* ⬜ Dividendo Yield
-* ✅ LPA
-* ✅ PL
-* ✅ P/VP
-* ✅ VPA
-* ✅ P/EBIT
-* ✅ PSR
-* ✅ EV/EBIT
-* ✅ P/Ativo
-* ✅ Capital de Giro
-* ✅ P/ Capital de Giro
-* ✅ Capital de Giro por Ação
-* ✅ Ativo Circulante Líquido
+# Identificar valores anuais ou últimos 12 meses que forma 1 ano
+
+## Calculos 
+|Balanço Patrimônial           |Indicador de Valuation       |Indicador de Endividamento           |Indicador de Eficiência   |
+|:-----------------------------|:----------------------------|:------------------------------------|:-------------------------|
+|✅ Ativo                      |🟥 Dividendo Yield           |⬜ Dívida Líquida/Patrimônio Líquido |⬜ Margem Bruta           |           
+|✅ Disponibilidade            |✅ P/L                       |⬜ Dívida Líquida/EBIT               |⬜ Margem EBIT            |
+|✅ Ativos Circulante          |✅ P/ATIVO CIRCULANTE LÍQUIDO|⬜ Patrimônio Líquido/Ativo Total    |⬜ Margem Líquida         |            
+|✅ Dívida Bruta               |✅ P/VP                      |⬜ Liquidez Corrente                 |                          |
+|✅ Dívida Líquida             |✅ EV/EBITDA                 |                                     |                          |
+|✅ Patrimo Líquido            |✅ EV/EBIT                   |                                     |                          |
+|✅ Lucro Líquido 12 Meses     |✅ P/EBITDA                  |                                     |                          |
+|✅ Receita Líquida 12 Meses   |✅ P/EBIT                    |                                     |                          |
+|✅ EBIT 12 Meses              |✅ VPA                       |                                     |                          |
+|✅ Valor de Mercado           |✅ P/ATIVO                   |                                     |                          |
+|✅ Valor de Firma             |✅ LPA                       |                                     |                          |
+|✅ Expectativa                |✅ P/SR                      |                                     |                          |
+|                              |✅ P/CAPITAL GIRO            |                                     |                          |
+
+
+
+
+
 ---
 ⬜ ✅ 🟥
